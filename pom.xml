@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework</groupId>
     <artifactId>spring-framework-3.2.9</artifactId>
-    <version>${spring-version}</version>
+    <version>3.2.9.RELEASE</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -11,6 +11,7 @@
     </properties>
 
     <modules>
+        <module>spring-beans</module>
         <module>spring-context</module>
         <module>spring-context-support</module>
     </modules>
@@ -52,6 +53,11 @@
                 <artifactId>ejb-api</artifactId>
                 <version>3.0</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.el</groupId>
+                <artifactId>javax.el-api</artifactId>
+                <version>3.0.0</version>
             </dependency>
             <dependency>
                 <groupId>javax.inject</groupId>

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework</groupId>
     <artifactId>spring-context</artifactId>
-    <version>${spring-version}</version>
+    <version>3.2.9.RELEASE</version>
 
     <parent>
         <groupId>org.springframework</groupId>
